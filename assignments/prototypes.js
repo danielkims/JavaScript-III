@@ -16,12 +16,16 @@
   * destroy() // prototype method that returns: `${this.name} was removed from the game.`
 */
 
+function GameObject
+
 /*
   === CharacterStats ===
   * healthPoints
   * takeDamage() // prototype method -> returns the string '<object name> took damage.'
   * should inherit destroy() from GameObject's prototype
 */
+
+function CharacterStats
 
 /*
   === Humanoid (Having an appearance or character resembling that of a human.) ===
@@ -33,6 +37,8 @@
   * should inherit takeDamage() from CharacterStats
 */
  
+function Humanoid 
+
 /*
   * Inheritance chain: GameObject -> CharacterStats -> Humanoid
   * Instances of Humanoid should have all of the same properties as CharacterStats and GameObject.
